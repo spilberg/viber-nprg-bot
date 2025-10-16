@@ -1,0 +1,31 @@
+{
+  "name": "viber-nova-poshta-bot",
+  "version": "1.0.0",
+  "description": "Viber bot для відстеження посилок Нової Пошти",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "viber-bot": "^1.0.13",
+    "mongoose": "^7.5.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4"
+  },
+  "keywords": [
+    "viber",
+    "bot",
+    "nova-poshta",
+    "tracking",
+    "ukraine"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
