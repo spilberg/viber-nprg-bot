@@ -1,19 +1,21 @@
 {
   "name": "viber-nova-poshta-bot",
   "version": "1.0.0",
-  "description": "Viber bot для відстеження посилок Нової Пошти",
+  "description": "Viber bot для відстеження посилок Нової Пошти з OCR підтримкою",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "test": "jest"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "viber-bot": "^1.0.13",
     "mongoose": "^7.5.0",
     "axios": "^1.5.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^4.1.1",
+    "sharp": "^0.32.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
@@ -24,7 +26,9 @@
     "bot",
     "nova-poshta",
     "tracking",
-    "ukraine"
+    "ukraine",
+    "ocr",
+    "image-recognition"
   ],
   "author": "Your Name",
   "license": "MIT"
